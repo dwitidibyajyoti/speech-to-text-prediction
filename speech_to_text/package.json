@@ -1,0 +1,26 @@
+{
+  "name": "speech_to_text_converter",
+  "version": "2.0.2",
+  "description": "This package convert speech to text",
+  "main": "dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Rakesh",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "^1.4.6",
+    "@types/react-speech-recognition": "^3.9.5",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "openai": "^4.28.4",
+    "react-speech-recognition": "^3.10.0"
+  }
+}
